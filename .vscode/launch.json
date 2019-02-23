@@ -13,7 +13,20 @@
 			"stopAtEntry": false,
 			"cwd": "${env:VCPKG_ROOT}\\installed\\x64-windows\\debug\\bin",
 			"environment": [],
-			"externalConsole": true
+			"externalConsole": false,
+			"internalConsoleOptions": "openOnSessionStart"
+		},
+		{
+			"name": "HelloTriangleApplication x64-windows",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}\\build\\x64-windows\\bin\\HelloTriangleApplication.exe",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${env:VCPKG_ROOT}\\installed\\x64-windows\\debug\\bin",
+			"environment": [],
+			"externalConsole": false,
+			"internalConsoleOptions": "openOnSessionStart"
 		}
 	]
 }

@@ -1,1 +1,2 @@
+add_subdirectory(HelloTriangleApplication)
 add_subdirectory(VulkanTest)
