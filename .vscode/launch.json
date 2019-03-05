@@ -24,7 +24,16 @@
 			"args": [],
 			"stopAtEntry": false,
 			"cwd": "${env:VCPKG_ROOT}\\installed\\x64-windows\\debug\\bin",
-			"environment": [],
+			"environment": [
+				{
+					"name": "VK_LAYER_PATH",
+					"value": "${env:VULKAN_SDK}\\Bin"
+				},
+				{
+					"name": "VK_INSTANCE_LAYERS",
+					"value": "VK_LAYER_LUNARG_standard_validation"
+				}
+			],
 			"externalConsole": false,
 			"internalConsoleOptions": "openOnSessionStart"
 		}
